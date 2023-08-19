@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tabla de Clientes</title>
+<title>Clientes</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<style>
+  .button-container {
+    margin-top: 10px;
+  }
+</style>
+</head>
+
+<body>
+    
+  <div class="container">
+    <div class="button-container">
+      <button class="btn btn-primary">PDF</button>
+      <button class="btn btn-success">Excel</button>
+    </div>
+    <table class="table table-bordered">
+      <thead class="thead-light">
+        <tr>
+          <th>Nombre Cliente</th>
+          <th>Apellido Cliente</th>
+          <th>Descripción</th>
+          <th>Email</th>
+          <th>Modificaciones</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>John</td>
+          <td>Doe</td>
+          <td>Cliente VIP</td>
+          <td>john@example.com</td>
+          <td>
+            <button class="btn btn-warning">Editar</button>
+            <button class="btn btn-danger">Eliminar</button>
+          </td>
+        </tr>
+        <tr>
+          <td>Jane</td>
+          <td>Smith</td>
+          <td>Nuevo Cliente</td>
+          <td>jane@example.com</td>
+          <td>
+            <button class="btn btn-warning">Editar</button>
+            <button class="btn btn-danger">Eliminar</button>
+          </td>
+        </tr>
+        <tr>
+          <td>Michael</td>
+          <td>Johnson</td>
+          <td>Cliente Regular</td>
+          <td>michael@example.com</td>
+          <td>
+            <button class="btn btn-warning">Editar</button>
+            <button class="btn btn-danger">Eliminar</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>

@@ -1,0 +1,13 @@
+/* styles.css */
+/* Estilo para los botones en la columna "Acciones" */
+.btn {
+  margin-right: 5px;
+}
+
+/* Ajustar el tamaño de los botones para pantallas pequeñas */
+@media (max-width: 576px) {
+  .btn {
+    margin-bottom: 5px;
+    width: 100%;
+  }
+}

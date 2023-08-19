@@ -1,0 +1,3 @@
+ErrorDocument 500 /DWP/error500.html
+ErrorDocument 504 /DWP/error504.html
+ErrorDocument 400 /DWP/error400.html
